@@ -1,0 +1,8 @@
+[tools]
+node = "latest"
+
+[tasks]
+next = "node node_modules/.bin/next"
+build = "npm run build"
+dev = "npm run dev"
+lint = "npm run lint"
