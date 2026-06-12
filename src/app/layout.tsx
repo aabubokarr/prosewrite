@@ -4,7 +4,7 @@ import Script from 'next/script';
 import { PHProvider } from './providers';
 
 export const metadata: Metadata = {
-  title: 'Mockup: Landing Page 1',
+  title: 'ProseWrite',
   description: 'ProseWrite - AI-Powered Writing Assistant',
 };
 

@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto w-full max-w-7xl px-4 md:px-6">
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-2">
           <p className="text-center text-sm text-zinc-400 sm:text-xs">
-            © 2024 ProseWrite, LLC. All rights reserved.
+            Copyright © {new Date().getFullYear()} ProseWrite, LLC. All rights reserved.
           </p>
           <nav className="flex flex-col items-center gap-4 sm:ml-auto sm:flex-row sm:gap-6">
             <Link
